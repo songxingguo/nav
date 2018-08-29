@@ -1,0 +1,28 @@
+/* reset */
+* {
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+}
+/* reset */
+ul {
+  list-style:  none; /* 清除列表元素样式 */
+/*   width: 100px; */ /* 去掉 */
+}
+li {
+  float: left; /* 添加浮动 */
+}
+a {
+  text-decoration: none; /* 去掉 a 标签下划线 */
+  display: block; /* 将 a 标签变成块级元素 */
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  background-color: #ccc;
+  margin-bottom: 1px;
+  text-align: center; /* 文本水平居中对齐 */
+}
+a:hover {
+  background-color: #f60;
+  color: fff;
+}
